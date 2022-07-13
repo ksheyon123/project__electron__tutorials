@@ -49,7 +49,7 @@ Adding execute scripts in package.json
 }
 ```
 
-> Description :
+> Description : <br />
 >
 > > dist : Package React Project built in build dir. Creating Windows, Mac OS & Linux Version with --mwl command
 > > dist:mac : Create Mac OS Application
