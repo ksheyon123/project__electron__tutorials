@@ -25,9 +25,9 @@ Adding execute scripts in package.json
 }
 ```
 
-> Description :
+> Description :<br />
 >
-> > react-start : Run React Project Without Browser Opening
+> > react-start : Run React Project Without Browser Opening<br />
 > > electron-start : Run electron
 
 ---
@@ -51,6 +51,6 @@ Adding execute scripts in package.json
 
 > Description : <br />
 >
-> > dist : Package React Project built in build dir. Creating Windows, Mac OS & Linux Version with --mwl command
-> > dist:mac : Create Mac OS Application
+> > dist : Package React Project built in build dir. Creating Windows, Mac OS & Linux Version with --mwl command <br />
+> > dist:mac : Create Mac OS Application <br />
 > > dist:windows : Create Windows OS Application

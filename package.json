@@ -18,6 +18,7 @@
     "@types/styled-components": "^5.1.25",
     "electron-builder-squirrel-windows": "^23.3.1",
     "electron-is-dev": "^2.0.0",
+    "fs": "0.0.1-security",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
