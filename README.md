@@ -4,7 +4,7 @@
 
 #### Management Npm Packages
 
-1. `npm install electron electron-is-dev electron-builder` 설치
+1. `npm install electron electron-is-dev electron-builder electron-builder-squirrel-windows` 설치
 2. move electron & eletron-builder library dependencies to devDependencies
 
 ---
@@ -26,8 +26,9 @@ Adding execute scripts in package.json
 ```
 
 > Description :
-> react-start : Run React Project Without Browser Opening
-> electron-start : Run electron
+>
+> > react-start : Run React Project Without Browser Opening
+> > electron-start : Run electron
 
 ---
 
@@ -49,6 +50,7 @@ Adding execute scripts in package.json
 ```
 
 > Description :
-> dist : Package React Project built in build dir. Creating Windows, Mac OS & Linux Version with --mwl command
-> dist:mac : Create Mac OS Application
-> dist:windows : Create Windows OS Application
+>
+> > dist : Package React Project built in build dir. Creating Windows, Mac OS & Linux Version with --mwl command
+> > dist:mac : Create Mac OS Application
+> > dist:windows : Create Windows OS Application

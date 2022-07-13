@@ -16,6 +16,7 @@
     "@types/react-dom": "^18.0.5",
     "@types/react-router-dom": "^5.3.3",
     "@types/styled-components": "^5.1.25",
+    "electron-builder-squirrel-windows": "^23.3.1",
     "electron-is-dev": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -29,6 +30,42 @@
   "devDependencies": {
     "electron": "^19.0.4",
     "electron-builder": "^23.1.0"
+  },
+  "build": {
+    "appId": "planet-node-electron",
+    "files": [
+      "build/**/*",
+      "node_modules/**/*"
+    ],
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ],
+      "icon": "./build/logo512.png"
+    },
+    "squirrelWindows": {
+      "iconUrl": "https://www.gitbook.com/cdn-cgi/image/height=40,fit=contain,dpr=2,format=auto/https%3A%2F%2F170524761-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-McMmuxKCCgDfbGouV8t%252Flogo%252FoybG2CTmnrj1djHTcRwc%252FICON%2520DEV%2520PORTAL.png%3Falt%3Dmedia%26token%3D84f92e2d-d680-4e4c-84ca-7962577c34ee"
+    }
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,5 +1,5 @@
 const { app, BrowserWindow } = require("electron");
-const path = require("paht");
+const path = require("path");
 const url = require("url");
 const isDev = require("electron-is-dev");
 
