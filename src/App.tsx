@@ -1,20 +1,10 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
-import { MainPage } from "./pages/index";
-import { Layout } from "./components/index";
 
-const App = () => {
+const App: React.FC = () => {
   return (
-    <Routes>
-      <Route
-        path="/"
-        element={
-          <Layout>
-            <MainPage />
-          </Layout>
-        }
-      />
-    </Routes>
+    <div>
+      Hello World
+    </div>
   )
 }
 
